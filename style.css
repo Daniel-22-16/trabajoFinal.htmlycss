@@ -20,3 +20,13 @@ li{ font-size: 1.25em;}
     max-width: 1400px;
     margin: auto;
 }
+.color-acento{ color:rgb(104, 21, 172)}
+header {
+    background-color: rgb(245, 245, 245);
+}header .logo {
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(104, 21, 172);
+    font-size: 1.6em;
+}
