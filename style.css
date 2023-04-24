@@ -171,7 +171,7 @@ footer .container {
         margin-top: 0px;
     }
     #somos-proya .img-container {
-        background-image: url('media/fondo2.jpg');
+        background-image: url(img/progrador.jpg);
         background-size: cover;
         background-position: center center;
         height: 500px;
@@ -198,11 +198,40 @@ footer .container {
         box-shadow: 2px 2px 1opx rgba(0,0,0,0.5);
     }
     .carta:first-child {
-        background-image: url(media/python.jpg);
+        background-image: url(img/HD.jpg);
         }
         .carta:nth-child(2) {
-        background-image: url(media/java.png);
+        background-image: url(img/java.jpg);
         }
         .carta:nth-child(3) {
-        background-image: url(media/frontend.png);
+        background-image: url(img/logos.png);
         }
+        #contactos {
+            background-image: url(img/web.jpg);
+            background-repeat: no-repeat;
+            background-size: 550px 550px;
+            background-position-x: center center;
+            background-position: calc(100vw - 500px) 120px;
+        }
+        #contactos .container {
+            text-align: initial;
+        }
+        #contactos ul{
+            margin-left: 100px;
+            padding: 5px 12px;
+        }
+        #maps h2 {
+            font-size: 5em;
+        }
+        #final buttom {
+            font-size: 2em;
+        }
+        footer .container {
+            justify-content: flex-end;
+        }
+    }        
+    @media (min-width: 1200px) {
+        #contactos {
+            background-position-x: calc(100vw - 800px);
+        }
+    }
