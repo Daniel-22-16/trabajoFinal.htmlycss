@@ -140,3 +140,60 @@ footer .container {
     justify-content: center;
     align-items: flex-end;
 }
+@media (min-width: 720px) {
+    header {
+        position: fixed;
+        width: 100%;
+    }
+    header .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav {
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+    #somos-proya .container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #somos-proya .texto {
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #somos-proya h2 {
+        margin-top: 0px;
+    }
+    #somos-proya .img-container {
+        background-image: url('media/fondo2.jpg');
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+    #experiencia .programas {
+        display: flex;
+        justify-content: center;
+    }
+    #experiencia p {
+        display: block;
+        margin-bottom: 30px;
+        background-position-x: 0;
+    }
+    #experiencia h2 {
+        margin-top: 0;
+    }
+    #experiencia .carta {
+        padding: 50px;
+        background-size: 100% 110px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgb(50,50,50.5);
+        box-shadow: 2px 2px 1opx rgba(0,0,0,0.5);
+    }
