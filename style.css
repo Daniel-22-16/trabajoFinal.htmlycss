@@ -197,3 +197,12 @@ footer .container {
         background-color: rgb(50,50,50.5);
         box-shadow: 2px 2px 1opx rgba(0,0,0,0.5);
     }
+    .carta:first-child {
+        background-image: url(media/python.jpg);
+        }
+        .carta:nth-child(2) {
+        background-image: url(media/java.png);
+        }
+        .carta:nth-child(3) {
+        background-image: url(media/frontend.png);
+        }
