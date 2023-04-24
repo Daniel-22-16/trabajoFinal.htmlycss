@@ -108,3 +108,21 @@ header a:hover {
     font-weight: bold;
     padding: 5px 12px;
 }
+#maps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 80vh;
+    text-align: center;
+    background-color: rgb(30,30,30);
+    color: white;
+    height: 90vh;
+}
+#maps h2 {
+    font-size: 9vw;
+}
+#maps .iframe {
+    background-image: none;
+}
