@@ -63,3 +63,30 @@ header a:hover {
     background-size: cover;
     background-position: center center;
 }
+#somos-proya .container {
+    text-align: center;
+    padding: 150px 12px;
+}
+#experiencia {
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+#experiencia .container {
+    padding: 100px 0px;
+}
+#experiencia h2 {
+    margin-top: 0;
+    font-size: 3.2em;
+    border: 2em rgb(30,30,30);
+}
+#experiencia p {
+    display: none;
+}
+#experiencia .carta {
+    background-position: center center;
+    background-size: cover;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 15px;
+}
