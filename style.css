@@ -90,3 +90,21 @@ header a:hover {
     margin: 20px;
     border-radius: 15px;
 }
+.carta:first-child {
+    background-image: url(img/HD.jpg);
+}
+.carta:nth-child(2) {
+    background-image: url(img/java.jpg);
+}
+.carta:nth-child(3) {
+    background-image: url(img/logos.png);
+}
+#contactos .container{
+    text-align: center;
+    padding: 200px 100px;
+}
+#contactos li {
+    margin: 16px 0px;
+    font-weight: bold;
+    padding: 5px 12px;
+}
